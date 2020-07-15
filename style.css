@@ -1,0 +1,44 @@
+#search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.col-sm-10 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-header {
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+}
+
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-img {
+    width: 35%;
+    margin-top: 20px;
+    border: solid blue;
+    box-shadow: 6px 8px rgba(26, 24, 24, .35);
+}
+
+.display-control {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie-card-border {
+    border: solid #f0ad4e;
+}
+
+.gif-card-border {
+    border: solid #0275d8
+}
