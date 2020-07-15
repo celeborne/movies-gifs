@@ -72,7 +72,7 @@ function findGifs(searchKeyword, cardResultsContainer) {
 }
 
 function findMovies(searchKeyword, cardMoviesResultsContainer) {
-const omdbStart = "http://www.omdbapi.com";
+const omdbStart = "https://www.omdbapi.com";
 const omdbKey = "daaadae3";
   
   fetch(`${omdbStart}/?apikey=${omdbKey}&s=${searchKeyword}`)
